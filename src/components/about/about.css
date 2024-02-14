@@ -94,7 +94,12 @@
 
 @media screen and (max-width: 576px) {
     .about__info {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns:1fr 1fr;
+        grid-auto-rows: auto;
+    }
+
+    .about__info-odd .about__box:last-child {
+        grid-column: span 2;
     }
 
     .about__description {

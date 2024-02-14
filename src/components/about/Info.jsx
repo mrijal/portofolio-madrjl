@@ -1,8 +1,17 @@
-import React from 'react'
+import React, {useState , useEffect} from 'react'
 
 const Info = () => {
+
+  const [isOddElement, setIsOddElement] = useState(false);
+
+  useEffect(() => {
+    const parent = document.querySelector('.about__info');
+    const childCount = parent.childElementCount;
+    setIsOddElement(childCount % 2 !== 0);
+  },[]);
+
   return (
-    <div className="about__info grid">
+    <div className={`about__info grid ${isOddElement ? 'about__info-odd' : ''}`}>
         <div className="about__box">
         <i className='bx bx-award about__icon'></i>
 
