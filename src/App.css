@@ -169,7 +169,8 @@ img {
 
 /* reusable css classes */
 .section {
-  padding: 6rem 0 2rem;
+  padding: 10rem 0 2rem;
+  margin-bottom: var(--mb-2);
 }
 
 .section__title {
@@ -260,6 +261,7 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+    max-width: 100%;
   }
 }
 

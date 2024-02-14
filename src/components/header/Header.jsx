@@ -56,6 +56,7 @@ const Header = () => {
                 <i className='uil uil-apps'></i>
                 </div>
         </nav>
+        <div className="gradient"></div>
     </header>
   )
 }
