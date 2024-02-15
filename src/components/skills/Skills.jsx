@@ -6,7 +6,7 @@ import Multimedia from './Multimedia';
 
 const Skills = () => {
   return (
-    <section className='section'>
+    <section className='section' id='skills'>
         <h2 className="section__title">
             My SKills
         </h2>

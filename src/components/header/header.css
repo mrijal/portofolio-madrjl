@@ -15,6 +15,14 @@
     column-gap: 1rem;
 }
 
+.background__nav {
+    width: 100%;
+    background-color: var(--container-color);
+    height: 72px;
+    position: absolute;
+    top: 0;
+}
+
 .nav__logo,
 .nav__toggle{
     color: var(--title-color);

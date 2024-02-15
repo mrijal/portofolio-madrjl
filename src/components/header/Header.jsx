@@ -7,6 +7,7 @@ const Header = () => {
     const [Toggle, showMenu] = useState(false);
   return (
     <header className="header">
+        <div className="background__nav"></div>
         <nav className='nav container'>
             <a href="index.html" className='nav__logo'>Madrjl</a>
 
