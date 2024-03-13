@@ -1,0 +1,10 @@
+.footer__container {
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    width: 100%;
+    color: var(--title-color);
+    font-weight: var(--font-normal);
+}

@@ -6,6 +6,8 @@ import About from './components/about/About.jsx'
 import Skills from './components/skills/Skills.jsx'
 import Services from './components/services/Services.jsx'
 import ParticleJS from './components/particle/ParticleJS.jsx'
+import Footer from './components/footer/Footer.jsx'
+import Qualification from './components/qualification/Qualification.jsx'
 
 function App() {
 
@@ -19,7 +21,10 @@ function App() {
       <About/>
       <Skills/>
       <Services/>
+      <Qualification/>
     </main>
+
+    <Footer/>
     </>
   )
 }

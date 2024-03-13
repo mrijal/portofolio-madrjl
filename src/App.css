@@ -107,10 +107,6 @@
   --z-modal: 1000;
 }
 
-* {
-  z-index: 1;
-}
-
 @media screen and (max-width: 992px) {
   :root{
     --big-font-size: 2.75rem;
@@ -267,15 +263,6 @@ img {
     margin-right: var(--mb-1);
     max-width: 100%;
   }
-}
-
-#tsparticles{
-  top: 0;
-  position: absolute;
-  width: 100% !important;
-  height: 50vh !important;
-  z-index: -1;
-  overflow:hidden;
 }
 
 /* a {

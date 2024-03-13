@@ -1,0 +1,19 @@
+body {
+    height: 100%;
+}
+
+.particleContainer {
+    position: relative;
+}
+#tsparticles{
+    top: 0;
+    height: 350vh;
+    position: absolute;
+    z-index: -1;
+    overflow:hidden;
+  }
+
+  .hoho {
+    position: relative;
+    top: 300px;
+  }

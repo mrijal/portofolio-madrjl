@@ -38,10 +38,12 @@
     box-sizing: border-box;
     border-radius: 50%;
     transition: .5s;
+    background-color: black;
+    opacity: 0;
 }
 
 .home__social a:hover ~ .animation {
-    background-color: black;
+    opacity: 1;
 }
 
 .home__social a:nth-child(1):hover ~ .animation{
@@ -269,6 +271,27 @@
         grid-column: 1/3;
         grid-template-columns: repeat(3, 2rem);
         justify-self: center;
+        column-gap: .75rem;
+    }
+
+    .animation {    
+        top: 0;
+        left: -45px;
+    }
+    
+    .home__social a:nth-child(1):hover ~ .animation{
+        left:0;
+        top: 0;
+    }
+    
+    .home__social a:nth-child(2):hover ~ .animation{
+        left:45px;
+        top: 0;
+    }
+    
+    .home__social a:nth-child(3):hover ~ .animation{
+        left:90px;
+        top: 0;
     }
 }
 
